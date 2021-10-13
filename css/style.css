@@ -12,22 +12,19 @@
 --Very-pale-blue: hsl(225, 100%, 98%);
 --Desaturated-blue: hsl(224, 23%, 55%);
 --Dark-blue: hsl(223, 47%, 23%);
-
-font-size: 16px
 }
 .body{
     background-image: url(/assets/img/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Red Hat Display',sans-serif;
-    /* height: 70vh; */
-
 }
 .order-card,
 .order-plan{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .order-card{
     max-width: 320px;
     width: 100%;
@@ -38,46 +35,42 @@ font-size: 16px
     border-radius: 1.5rem;
     overflow: hidden;
 }
-
+.order-img{
+    max-width: 100%;
+}
 .order__header{
     text-align: center;
 }
-
 .order-title{
     font-weight: 900;
     font-size: 1.4em;
-    margin: 0.8em auto;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     color: var(--Dark-blue);
 }
 .order-description{
     font-weight: 500;
     max-width: 80%;
-    margin: auto;
+    margin: 1em auto;
     line-height: 1.5em;
     color: var(--Desaturated-blue);
 }
-
-
 .order-plan{
-    width: 85%;
     background-color: var(--Pale-blue);
-    margin: auto;
+    margin-top: 0;
     padding: 0.5em;
     border-radius: 15px;
     justify-content: center;
 }
-
 .plan{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     margin-left: 1em;
     margin-right: 3em;
 }
-
 .plan h2{
     font-size: 0.9em;
     margin: 0%;
 }
-
 .btm-a{
     display: block;
     text-align: center;
