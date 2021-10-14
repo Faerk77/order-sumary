@@ -3,12 +3,9 @@
 }
 :root{
 /* Primary */
-
 --Pale-blue: hsl(225, 100%, 94%);
 --Bright-blue: hsl(245, 75%, 52%);
-
 /* Neutral */
-
 --Very-pale-blue: hsl(225, 100%, 98%);
 --Desaturated-blue: hsl(224, 23%, 55%);
 --Dark-blue: hsl(223, 47%, 23%);
@@ -49,22 +46,32 @@
     color: var(--Dark-blue);
 }
 .order-description{
+    font-size: 0.98em;
     font-weight: 500;
-    max-width: 80%;
+    max-width: 85%;
     margin: 1em auto;
     line-height: 1.5em;
     color: var(--Desaturated-blue);
 }
 .order-plan{
-    background-color: var(--Pale-blue);
+    background-color: hsla(224, 23%, 55%, 0.034);
+    font-size: 1em;
     margin-top: 0;
-    padding: 0.5em;
-    border-radius: 15px;
-    justify-content: center;
+    padding: 0.95em;
+    border-radius: 0.65rem;
+}
+.order-plan a{
+    font-size: 0.8em;
+    font-weight: 700;
+    color: var(--Bright-blue);
+}
+.order-plan span{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--Desaturated-blue);
 }
 .plan{
-    background-color: rgb(255, 255, 255);
-    margin-left: 1em;
+    margin-left: 1.23em;
     margin-right: 3em;
 }
 .plan h2{
@@ -75,4 +82,18 @@
     display: block;
     text-align: center;
     text-decoration: none;
+    padding: 0.9em;
+}
+.payment-link{
+    color: var(--Pale-blue);
+    background-color: var(--Bright-blue);
+    margin: 1.3em auto 0.5em auto;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px gray;
+}
+.cancel-link{
+    color: var(--Desaturated-blue);
+    font-weight: 700;
+    margin: 0.5em auto 1em auto;
 }
