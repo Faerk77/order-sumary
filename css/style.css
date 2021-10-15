@@ -11,9 +11,8 @@
 --Dark-blue: hsl(223, 47%, 23%);
 }
 .body{
-    background-image: url(/assets/img/pattern-background-desktop.svg);
+    background-image:url(/assets/img/pattern-background-mobile.svg);
     background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Red Hat Display',sans-serif;
 }
 .order-card,
@@ -96,4 +95,12 @@
     color: var(--Desaturated-blue);
     font-weight: 700;
     margin: 0.5em auto 1em auto;
+}
+
+@media(min-width: 768px){
+    .body{
+        background-image: url(/assets/img/pattern-background-desktop.svg);
+        background-color: var(--Pale-blue);
+        background-size: contain;
+    }
 }
