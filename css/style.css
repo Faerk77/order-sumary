@@ -1,4 +1,4 @@
-*,*::after,*::before {
+*{
     box-sizing: border-box;
 }
 :root{
@@ -27,12 +27,11 @@
 .order-card{
     max-width: 320px;
     width: 100%;
-    margin: 9vh auto;
-    /* background-color: var(--Very-pale-blue); */
+    margin: 8vh auto;
     background-color: #ffffff;
     flex-direction: column;
     align-content: center;
-    border-radius: 1.5rem;
+    border-radius: 1.2rem;
     overflow: hidden;
 }
 .order-img{
@@ -53,7 +52,7 @@
     font-weight: 500;
     max-width: 85%;
     margin: 1em auto 1.4em auto;
-    line-height: 1.5em;
+    line-height: 1.7em;
     color: var(--Desaturated-blue);
 }
 .order-plan{
@@ -90,7 +89,7 @@
 .payment-link{
     color: var(--Pale-blue);
     background-color: var(--Bright-blue);
-    margin: 1.3em auto 0.5em auto;
+    margin: 1.5em auto 0.5em auto;
     font-weight: 700;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgb(162, 163, 255);
@@ -105,9 +104,44 @@
     .body{
         background-image: url(/assets/img/pattern-background-desktop.svg);
         background-color: var(--Pale-blue);
-        background-size: contain;
+        background-position: 100% -30%;
+        font-size: 15px;
     }
     .order-card{
-        max-width: 380px;
+        /* padding: 1em; */
+        max-width: 390px;
+        margin: 16vh auto;
+    }
+    .order-title{
+        margin-top: 1.8em;
+        font-size: 1.6em;
+    }
+    .order-description{
+        width: 70%;
+        font-size: 0.9em;
+    }
+    .plan{
+        margin-right: 5.5em;
+        margin-left: 0.5em;
+    }
+    .order-plan{
+        padding: 1.2em;
+        margin-bottom: 2em;
+    }
+    .btm-a {
+        font-size: 0.856em;
+        padding:1em ;
+    }
+    .cancel-link{
+        margin-bottom:2em ;
+    }
+    .payment-link:hover{
+        background-color: hsl(256, 77%, 66%);
+    }
+    .cancel-link:hover{
+        color: black;
+    }
+    .order-plan a:hover{
+      color:hsl(256, 77%, 66%);
     }
 }
