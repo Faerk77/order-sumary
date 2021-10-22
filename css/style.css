@@ -109,27 +109,28 @@
     }
     .order-card{
         /* padding: 1em; */
-        max-width: 390px;
+        max-width: 450px;
         margin: 16vh auto;
     }
     .order-title{
         margin-top: 1.8em;
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
     .order-description{
         width: 70%;
-        font-size: 0.9em;
+        font-size: 1em;
     }
     .plan{
         margin-right: 5.5em;
         margin-left: 0.5em;
     }
     .order-plan{
+        /* width: 100%; */
         padding: 1.2em;
         margin-bottom: 2em;
     }
     .btm-a {
-        font-size: 0.856em;
+        /* font-size: 0.856em; */
         padding:1em ;
     }
     .cancel-link{
