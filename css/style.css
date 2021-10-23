@@ -116,24 +116,25 @@
     }
     .order-title{
         margin-top: 1.8em;
-        font-size: 1.8em;
+        font-size: 1.9em;
     }
     .order-description{
-        width: 70%;
-        font-size: 1em;
+        width: 80%;
+        font-size: 1.18em;
     }
     .plan{
-        margin-right: 6em;
-        margin-left: 1.2em;
-        font-size: 1.1em;
+        margin-right: 7em;
+        margin-left: 1.3em;
+        font-size: 1.15em;
+        
     }
     .order-plan{
         /* width: 100%; */
-        padding: 1.2em;
+        padding: 1.3em;
         margin-bottom: 2em;
     }
     .order-plan a{
-        font-size: 0.9em;
+        font-size: 1em;
     }
     .btm-a {
         padding:0.9em ;
