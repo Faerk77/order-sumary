@@ -106,9 +106,11 @@
         background-color: var(--Pale-blue);
         background-position: 100% -15%;
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
     .order-card{
-        /* padding: 1em; */
         max-width: 450px;
         margin: 16vh auto;
     }
@@ -121,7 +123,7 @@
         font-size: 1em;
     }
     .plan{
-        margin-right: 5.5em;
+        margin-right: 8.3em;
         margin-left: 0.5em;
     }
     .order-plan{
@@ -130,8 +132,10 @@
         margin-bottom: 2em;
     }
     .btm-a {
-        /* font-size: 0.856em; */
-        padding:1em ;
+        padding:0.92em ;
+    }
+    .payment-link{
+        margin-bottom: 1em;
     }
     .cancel-link{
         margin-bottom:2em ;
