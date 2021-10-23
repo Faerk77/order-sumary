@@ -90,7 +90,7 @@
     color: var(--Pale-blue);
     background-color: var(--Bright-blue);
     margin: 1.5em auto 0.5em auto;
-    font-weight: 700;
+    font-weight: 900;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgb(162, 163, 255);
 }
@@ -123,13 +123,17 @@
         font-size: 1em;
     }
     .plan{
-        margin-right: 8.3em;
-        margin-left: 0.5em;
+        margin-right: 6em;
+        margin-left: 1.2em;
+        font-size: 1.1em;
     }
     .order-plan{
         /* width: 100%; */
         padding: 1.2em;
         margin-bottom: 2em;
+    }
+    .order-plan a{
+        font-size: 0.9em;
     }
     .btm-a {
         padding:0.9em ;
@@ -138,7 +142,7 @@
         margin-bottom: 1em;
     }
     .cancel-link{
-        margin-bottom:2em ;
+        margin-bottom:2.3em ;
     }
     .payment-link:hover{
         background-color: hsl(256, 77%, 66%);
