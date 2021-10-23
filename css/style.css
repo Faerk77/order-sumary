@@ -112,7 +112,7 @@
     }
     .order-card{
         max-width: 450px;
-        margin: 16vh auto;
+        margin: 14vh auto;
     }
     .order-title{
         margin-top: 1.8em;
@@ -132,7 +132,7 @@
         margin-bottom: 2em;
     }
     .btm-a {
-        padding:0.92em ;
+        padding:0.9em ;
     }
     .payment-link{
         margin-bottom: 1em;
